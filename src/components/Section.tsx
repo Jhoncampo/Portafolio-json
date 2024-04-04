@@ -6,8 +6,8 @@ const Section = ({
     title?: string;
 }) => {
     return (
-        <section className="max-w-[700px] mx-auto mb-16">
-            {title && <h2 className="text-xl font-medium">{title}</h2>}
+        <section className="max-w-[700px] mx-auto mb-12">
+            {title && <h2 className="text-xl mb-2 font-medium">{title}</h2>}
             {children}
         </section>
     );
