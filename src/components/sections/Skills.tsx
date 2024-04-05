@@ -1,11 +1,18 @@
-import Section from '@/components/Section'
+import Section from "@/components/Section";
+import { skills } from "@cv";
 
 const Skills = () => {
-  return (
-    <Section title='Skills'>
+    return (
+        <Section title="Skills">
+            <ul className="inline-flex gap-2 flex-wrap">
+                {skills.map(({ name }) => (
+                    <li className="rounded-md bg-[#eee] text-black text-sm font-medium px-2 py-1">
+                        <span>{name}</span>
+                    </li>
+                ))}
+            </ul>
+        </Section>
+    );
+};
 
-    </Section>
-  )
-}
-
-export default Skills
+export default Skills;
