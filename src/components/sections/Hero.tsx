@@ -16,6 +16,10 @@ const Hero = () => {
         LinkedIn: FaLinkedin,
         X: FaXTwitter,
     };
+
+    const linkedInfo = profiles.find(({network})=> network === "LinkedIn")
+    const linkedUrl = linkedInfo?.url
+    const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     return (
         <Section>
             <div className="flex items-center justify-between gap-4">
@@ -29,13 +33,16 @@ const Hero = () => {
                         {city}, {region}
                     </span>
                     <footer className="flex gap-1 mt-2">
+                        <div className="hidden text-[#555] text-xs print:block">
+                            {printInfo}
+                        </div>
                         {email && (
                             <a
                                 title={`Enviar un correo electrónico a ${name} al correo ${email}`}
                                 href={`mailto:${email}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee]"
+                                className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee] print:hidden"
                             >
                                 <CiMail className="w-[18px] h-[18px] " />
                             </a>
@@ -46,7 +53,7 @@ const Hero = () => {
                                 href={`tel:${phone}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee]"
+                                className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee] print:hidden"
                             >
                                 <HiOutlinePhone className="w-[18px] h-[18px]" />
                             </a>
@@ -60,7 +67,7 @@ const Hero = () => {
                                     title={`Visitar el perfil de ${name} en ${network}`}
                                     href={url}
                                     target="_blank"
-                                    className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee] hover:border-[#ddd]"
+                                    className="w-[32px] h-[32px] flex items-center justify-center text-[#777] p-1 border rounded-md transition-all duration-200 ease-linear border-[#eee] hover:bg-[#eee] hover:border-[#ddd] print:hidden"
                                     rel="noopener noreferrer"
                                 >
                                     <Icon className="w-[18px] h-[18px]" />
