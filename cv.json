@@ -5,7 +5,7 @@
         "image": "/me.webp",
         "email": "eduardcamayo13@gmail.com",
         "phone": "+57 3126114451",
-        "url": "https://midu.dev",
+        "url": "https://portafolio-json.vercel.app/",
         "summary": "1 año de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
         "location": {
             "address": "",
@@ -27,22 +27,14 @@
             },
             {
                 "network": "X",
-                "username": "midudev",
-                "url": "https://x.com/midudev"
+                "username": "",
+                "url": "https://twitter.com/Jhon__ll"
             }
             
         ]
     },
     "work": [
-        {
-            "name": "midudev",
-            "position": "Divulgador sobre Programación Web",
-            "url": "https://twitch.tv/midudev",
-            "startDate": "2021-01-01",
-            "endDate": null,
-            "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-            "highlights": ["Started the company"]
-        },
+        
         {
             "name": "Adevinta",
             "position": "Lead Frontend Architect",
@@ -208,7 +200,7 @@
         },
         {
             "language": "English",
-            "fluency": "Advanced"
+            "fluency": "B1"
         }
     ],
     "interests": [
