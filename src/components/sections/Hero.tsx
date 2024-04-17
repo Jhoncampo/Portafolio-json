@@ -4,7 +4,7 @@ import WorldMap from "@/icons/WorldMap";
 import { CiMail, CiGlobe  } from "react-icons/ci";
 import { HiOutlinePhone } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaInstagram  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
@@ -15,6 +15,7 @@ const Hero = () => {
         GitHub: FaGithub,
         LinkedIn: FaLinkedin,
         X: FaXTwitter,
+        Instagram: FaInstagram
     };
 
     const linkedInfo = profiles.find(({network})=> network === "LinkedIn")
