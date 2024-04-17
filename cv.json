@@ -6,7 +6,7 @@
         "email": "eduardcamayo13@gmail.com",
         "phone": "+57 3126114451",
         "url": "https://midu.dev",
-        "summary": "1 año de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+        "summary": "Durante mi experiencia como desarrollador de software, he aprendido a trabajar en equipo y a adaptarme a los cambios y requimientos del proyecto",
         "location": {
             "address": "",
             "postalCode": "050001",
@@ -26,38 +26,22 @@
                 "url": "https://www.linkedin.com/in/jhon-eduard-campo-309a26270/"
             },
             {
-                "network": "X",
-                "username": "midudev",
-                "url": "https://x.com/midudev"
+                "network": "Instagram",
+                "username": "chema___ll",
+                "url": "https://www.instagram.com/chema___ll/"
             }
+            
             
         ]
     },
     "work": [
         {
-            "name": "midudev",
-            "position": "Divulgador sobre Programación Web",
-            "url": "https://twitch.tv/midudev",
-            "startDate": "2021-01-01",
+            "name": "Cootransmede",
+            "position": "Asistente en sistemas",
+            "url": "https://www.cootransmede.com/",
+            "startDate": "2023-12-05",
             "endDate": null,
-            "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "Adevinta",
-            "position": "Lead Frontend Architect",
-            "url": "https://twitch.tv/midudev",
-            "startDate": "2016-06-01",
-            "endDate": "2022-09-01",
-            "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "Hubii",
-            "position": "Senior FrontEnd Developer",
-            "startDate": "2011-03-01",
-            "endDate": "2016-05-01",
-            "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+            "summary": "Actualmente me encuentro desarrollando la página web de la empresa de taxis, utilizando herrramientas de desarrollo como lo es nextjs. Me encuentro enfocado en la experiencia de usuario y la interfaz del usuario para garantizar una navegación intuitiva",
             "highlights": ["Started the company"]
         }
     ],
