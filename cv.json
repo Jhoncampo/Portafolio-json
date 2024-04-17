@@ -5,7 +5,7 @@
         "image": "/me.webp",
         "email": "eduardcamayo13@gmail.com",
         "phone": "+57 3126114451",
-        "url": "https://midu.dev",
+        "url": "https://portafolio-json.vercel.app/",
         "summary": "Durante mi experiencia como desarrollador de software, he aprendido a trabajar en equipo y a adaptarme a los cambios y requimientos del proyecto",
         "location": {
             "address": "",
@@ -192,7 +192,7 @@
         },
         {
             "language": "English",
-            "fluency": "Advanced"
+            "fluency": "B1"
         }
     ],
     "interests": [
