@@ -1,11 +1,7 @@
-import Section from '@/components/Section'
+import Section from "@/components/Section";
 
 const Education = () => {
-  return (
-    <Section title='Education'>
+    return <Section title="Educación"></Section>;
+};
 
-    </Section>
-  )
-}
-
-export default Education
+export default Education;

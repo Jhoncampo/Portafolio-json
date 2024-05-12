@@ -3,7 +3,7 @@ import { work } from "@cv";
 
 const Experience = () => {
     return (
-        <Section title="Experience">
+        <Section title="Experiencia">
             <ul className="flex flex-col gap-8">
                 {work.map(
                     ({
@@ -32,10 +32,14 @@ const Experience = () => {
                                                 {position}
                                             </h4>
                                         </div>
-                                        <time className="text-sm text-[#555]">{years}</time>
+                                        <time className="text-sm text-[#555]">
+                                            {years}
+                                        </time>
                                     </header>
                                     <footer>
-                                        <p className="text-[#666] font-mono">{summary}</p>
+                                        <p className="text-[#666] font-mono">
+                                            {summary}
+                                        </p>
                                     </footer>
                                 </article>
                             </li>

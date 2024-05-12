@@ -1,10 +1,10 @@
 import { basics } from "@cv";
 import Section from "../Section";
 import WorldMap from "@/icons/WorldMap";
-import { CiMail, CiGlobe  } from "react-icons/ci";
+import { CiMail, CiGlobe } from "react-icons/ci";
 import { HiOutlinePhone } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin, FaInstagram  } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
@@ -15,16 +15,16 @@ const Hero = () => {
         GitHub: FaGithub,
         LinkedIn: FaLinkedin,
         X: FaXTwitter,
-        Instagram: FaInstagram
+        Instagram: FaInstagram,
     };
 
-    const linkedInfo = profiles.find(({network})=> network === "LinkedIn")
-    const linkedUrl = linkedInfo?.url
-    const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+    const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+    const linkedUrl = linkedInfo?.url;
+    const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     return (
         <Section>
-            <div className="flex items-center justify-between gap-4">
-                <div className="flex flex-col gap-1 pr-8">
+            <div className="flex flex-col-reverse items-center justify-between gap-4  sm:flex-row">
+                <div className="flex flex-col gap-1 md:pr-8">
                     <h1 className="text-2xl font-medium">{name}</h1>
                     <h2 className="text-[#444] font-medium text-balance">
                         {label}
@@ -59,7 +59,7 @@ const Hero = () => {
                                 <HiOutlinePhone className="w-[18px] h-[18px]" />
                             </a>
                         )}
-                        {profiles.map(({ network, url, username }, index) => {
+                        {profiles.map(({ network, url }, index) => {
                             const Icon = SOCIALICONS[network];
 
                             return (
@@ -82,6 +82,7 @@ const Hero = () => {
                         className="aspect-square object-cover w-[128px] rounded-2xl"
                         src={image}
                         alt={name}
+                        title={`Imagen de ${name}`}
                     />
                 </figure>
             </div>

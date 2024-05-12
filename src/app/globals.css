@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.personalizda {
+    view-timeline-name: --revelar;
+    view-timeline-axis: block;
 
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --revelar;
+    animation-range: entry 100% cover 10%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

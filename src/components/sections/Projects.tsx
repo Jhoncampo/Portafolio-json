@@ -1,17 +1,25 @@
 import Section from "@/components/Section";
 import { projects } from "@cv";
+import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
     return (
-        <Section title="Projects">
+        <Section title="Proyectos">
             <ul className="grid grid-cols-custom gap-4">
                 {projects.map(
-                    ({ url, description, highlights, name, isActive }) => {
+                    ({
+                        url,
+                        description,
+                        highlights,
+                        name,
+                        isActive,
+                        github,
+                    }) => {
                         return (
                             <li className=" ">
                                 <article className="rounded-lg border border-[#f2f2f2] flex flex-col p-4 h-full gap-4">
                                     <header className="flex flex-1 flex-col">
-                                        <h3 className="font-semibold">
+                                        <h3 className="font-semibold flex items-center gap-2">
                                             <a
                                                 href={url}
                                                 target="_blank"
@@ -25,6 +33,14 @@ const Projects = () => {
                                                     {" "}
                                                     •
                                                 </span>
+                                            )}
+                                            {github && (
+                                                <a
+                                                    target="_blank"
+                                                    href={github}
+                                                >
+                                                    <FaGithub />
+                                                </a>
                                             )}
                                         </h3>
                                         <p className="font-mono text-[14px] leading-5 mb-1 text-[#666]">

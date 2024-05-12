@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Jhon Eduard Campo",
-        "label": "Full Stack Developer con 1 año de experiencia y apasionado por la  Programación",
-        "image": "/me.webp",
+        "label": "Desarrollador Full-Stack con 1 año de experiencia y apasionado por la  Programación",
+        "image": "https://avatars.githubusercontent.com/u/97568306?v=4",
         "email": "eduardcamayo13@gmail.com",
         "phone": "+57 3126114451",
         "url": "https://portafolio-json.vercel.app/",
-        "summary": "Durante mi experiencia como desarrollador de software, he aprendido a trabajar en equipo y a adaptarme a los cambios y requimientos del proyecto",
+        "summary": "Desarrollador de software con gran motivación y ganas de crecer. Soy una persona resolutiva y dinámica, con gran capacidad para el diagnóstico y la resolución de fallas,escritura de código y diseño de interfaces. ",
         "location": {
             "address": "",
             "postalCode": "050001",
@@ -95,21 +95,25 @@
     ],
     "skills": [
         {
+            "id": "Html",
             "name": "HTML",
             "level": "Master",
             "keywords": ["Desarrollo Web", "Frontend"]
         },
         {
+            "id": "Css",
             "name": "CSS",
             "level": "Master",
             "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
         },
         {
+            "id": "Javascript",
             "name": "JavaScript",
             "level": "Master",
             "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
         },
         {
+            "id": "Tailwind",
             "name": "Tailwind",
             "level": "Avanzado",
             "keywords": [
@@ -120,6 +124,7 @@
             ]
         },
         {
+            "id": "Typescript",
             "name": "TypeScript",
             "level": "Avanzado",
             "keywords": [
@@ -130,11 +135,13 @@
             ]
         },
         {
+            "id": "Node",
             "name": "Node",
             "level": "Avanzado",
             "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
         },
         {
+            "id": "Mysql",
             "name": "MySQL",
             "level": "Avanzado",
             "keywords": [
@@ -145,6 +152,7 @@
             ]
         },
         {
+            "id": "Git",
             "name": "Git",
             "level": "Avanzado",
             "keywords": [
@@ -154,6 +162,7 @@
             ]
         },
         {
+            "id": "Github",
             "name": "GitHub",
             "level": "Avanzado",
             "keywords": [
@@ -164,6 +173,7 @@
             ]
         },
         {
+            "id": "Next",
             "name": "Next.js",
             "level": "Avanzado",
             "keywords": [
@@ -175,6 +185,7 @@
             ]
         },
         {
+            "id": "React",
             "name": "React",
             "level": "Avanzado",
             "keywords": [
@@ -192,7 +203,7 @@
         },
         {
             "language": "English",
-            "fluency": "B1"
+            "fluency": "A2"
         }
     ],
     "interests": [
@@ -209,60 +220,41 @@
     ],
     "projects": [
         {
-            "name": "mars.codes",
+            "name": "Cootransmede",
             "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
-            "highlights": ["Elige tu propia aventura", "En desarrollo"],
-            "url": "https://mars.codes"
+            "description": "Desarrollo de página web de la empresa de taxis, ubicada en Medellín, Antioquia",
+            "highlights": ["En desarrollo"],
+            "url": "https://empresataxis.online/"
         },
         {
-            "name": "AdventJS",
+            "name": "Asemptaxis",
             "isActive": true,
-            "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+            "description": "Página web de la asocioación de las empresa de taxis en Medellín para brindar un mejor servicio al público",
             "highlights": [
-                "+1 millón de visitas",
-                "Multidioma",
-                "JavaScript & TypeScript"
+                "Grupo",
+                "Visivilidad"
             ],
-            "url": "https://adventjs.dev"
+            "url": "https://asemptaxis.vercel.app"
         },
         {
-            "name": "Codember",
-            "isActive": true,
-            "description": "Juego interactivo de programación con retos y secretos",
+            "name": "Alura Geek",
+            "isActive": false,
+            "description": "Practicando todos lo conocimientos adquiridos en la formación de Alura Latam",
             "highlights": [
-                "+2000 usuarios activos",
-                "Retos para cualquier lenguaje"
+                "Aprendizaje"
             ],
-            "url": "https://codember.dev"
+            "url": "https://alurageekecomerce.vercel.app/",
+            "github": "https://github.com/Jhoncampo/AluraGeek"
         },
         {
-            "name": "codi.link",
-            "isActive": true,
-            "description": "Playground de código HTML, CSS y JavaScript para compartir",
+            "name": "AudioJhon",
+            "isActive": false,
+            "description": "Aprendiendo a mejorar la experiencia del usuario",
             "highlights": [
-                "100k visitas al mes",
-                "Desarrollado por la comunidad"
+                "Diseño"
             ],
-            "url": "https://codi.link",
-            "github": "https://github.com/midudev/codi.link"
-        },
-        {
-            "name": "Pruebas Técnicas",
-            "isActive": true,
-            "description": "Lista de pruebas técnicas de empresas para practicar programación",
-            "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-            "url": "https://pruebastecnicas.com",
-            "github": "https://github.com/midudev/pruebas-tecnicas"
-        },
-        {
-            "name": "miduConf",
-            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-            "highlights": [
-                "+15k tickets repartidos",
-                "+50k espectadores en directo"
-            ],
-            "url": "https://miduconf.com"
+            "url": "https://audiojhon.vercel.app/",
+            "github": "https://github.com/Jhoncampo/Audiojhon"
         }
     ]
 }
