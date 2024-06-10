@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: `Portafolio de ${name}`,
     description: `Bienvenidos a mi portafolio, mi nombre es ${name}`,
     icons: {
-        icon: "https://cdn.empresataxis.online/icono-portafolio.webp",
+        icon: "https://i.ibb.co/GnZ9Q5v/icono.png",
     },
     openGraph: {
         title: `Portafolio de ${name}`,
