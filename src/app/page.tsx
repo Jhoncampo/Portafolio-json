@@ -9,7 +9,7 @@ import Skills from "@/components/sections/Skills";
 const Home = () => {
     return (
         <>
-            <main className="mx-auto p-5 w-full lg:p-16">
+            <main className="mx-auto p-5 w-full lg:p-16 print:p-10">
                 <Hero />
                 <About />
                 <Experience />
