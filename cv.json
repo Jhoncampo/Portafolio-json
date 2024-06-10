@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Jhon Eduard Campo",
-        "label": "Desarrollador Full-Stack con 1 año de experiencia y apasionado por la  Programación",
+        "label": "Desarrollador Full-Stack con 1 año de experiencia y apasionado por la programación",
         "image": "https://avatars.githubusercontent.com/u/97568306?v=4",
         "email": "eduardcamayo13@gmail.com",
         "phone": "+57 3126114451",
         "url": "https://portafolio-json.vercel.app/",
-        "summary": "Desarrollador de software con gran motivación y ganas de crecer. Soy una persona resolutiva y dinámica, con gran capacidad para el diagnóstico y la resolución de fallas,escritura de código y diseño de interfaces. ",
+        "summary": "Desarrollador Full-Stack motivado y con un fuerte deseo de crecimiento profesional. Soy resolutivo y dinámico, con habilidades excepcionales en diagnóstico y resolución de fallas, escritura de código eficiente y diseño de interfaces de usuario intuitivas y atractivas.",
         "location": {
             "address": "",
             "postalCode": "050001",
@@ -40,8 +40,8 @@
             "position": "Asistente en sistemas",
             "url": "https://www.cootransmede.com/",
             "startDate": "2023-12-05",
-            "endDate": null,
-            "summary": "Actualmente me encuentro desarrollando la página web de la empresa de taxis, utilizando herrramientas de desarrollo como lo es nextjs. Me encuentro enfocado en la experiencia de usuario y la interfaz del usuario para garantizar una navegación intuitiva",
+            "endDate": "2024-06-08",
+            "summary": "Optimicé la página web de cootransmede.com en WordPress, mejorando tanto el SEO como el diseño para una mejor experiencia de usuario. Además, desarrollé desde cero la página web de asemptaxis.com utilizando Next.js, priorizando el SEO y la accesibilidad para garantizar una navegación intuitiva y eficiente.",
             "highlights": ["Started the company"]
         }
     ],
@@ -220,26 +220,34 @@
     ],
     "projects": [
         {
-            "name": "Cootransmede",
+            "name": "Autenticación",
             "isActive": true,
-            "description": "Desarrollo de página web de la empresa de taxis, ubicada en Medellín, Antioquia",
+            "description": "Autenticación de usuarios utilizando Next.js, NextAuth y PostgreSQL.",
             "highlights": ["En desarrollo"],
-            "url": "https://empresataxis.online/"
-        },
+            "url": "https://authentication-ten-azure.vercel.app/",
+            "github": "https://github.com/Jhoncampo/login-and-register-with-nextauth"
+        }, 
         {
             "name": "Asemptaxis",
             "isActive": true,
-            "description": "Página web de la asocioación de las empresa de taxis en Medellín para brindar un mejor servicio al público",
+            "description": "Creé un sitio web desde cero utilizando Next.js, priorizando tanto el SEO como la accesibilidad.",
             "highlights": [
-                "Grupo",
                 "Visivilidad"
             ],
-            "url": "https://asemptaxis.vercel.app"
+            "url": "https://www.asemptaxis.co"
         },
+        {
+            "name": "Cootransmede",
+            "isActive": false,
+            "description": "Mejoré el sitio web existente, hecho en WordPress, enfocándome en SEO y diseño.",
+            "highlights": ["En desarrollo"],
+            "url": "https://www.cootransmede.com/"
+        },  
+        
         {
             "name": "Alura Geek",
             "isActive": false,
-            "description": "Practicando todos lo conocimientos adquiridos en la formación de Alura Latam",
+            "description": "Practicando todos lo conocimientos adquiridos en la formación de Alura Latam, como en estilo, redimiento y lógica",
             "highlights": [
                 "Aprendizaje"
             ],
@@ -249,7 +257,7 @@
         {
             "name": "AudioJhon",
             "isActive": false,
-            "description": "Aprendiendo a mejorar la experiencia del usuario",
+            "description": "Aprendiendo a mejorar la experiencia del usuario en diseño",
             "highlights": [
                 "Diseño"
             ],
