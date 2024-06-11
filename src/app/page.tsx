@@ -9,11 +9,11 @@ import Skills from "@/components/sections/Skills";
 const Home = () => {
     return (
         <>
-            <main className="mx-auto p-5 w-full lg:p-16 print:p-10">
+            <main className="mx-auto p-5 w-full lg:p-16">
                 <Hero />
                 <About />
                 <Experience />
-                {/* <Education /> */}
+                <Education />
                 <Projects />
                 <Skills />
             </main>
