@@ -58,12 +58,32 @@
     ],
     "education": [
         {
-            "institution": "Universitat Oberta de Catalunya",
-            "url": "https://www.uoc.edu/portal/es/index.html",
-            "area": "Ingeniero de Software",
+            "institution": "SENA Servicio Nacional de Aprendizaje",
+            "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+            "area": "Tecnólogo en Análisis y Desarrollo de Software",
             "studyType": "Bachelor",
-            "startDate": "2003-01-01",
-            "endDate": "2009-01-01",
+            "startDate": "2023-11-10",
+            "endDate": "2026-02-08",
+            "score": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        },
+        {
+            "institution": "Censa Educación Técnica Laboral",
+            "url": "https://www.censa.edu.co/portal/sitio/",
+            "area": "Técnico en Análisis y Desarrollo de Software",
+            "studyType": "Bachelor",
+            "startDate": "2022-07-01",
+            "endDate": "2024-06-08",
+            "score": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        },
+        {
+            "institution": "Alura Latam",
+            "url": "https://www.aluracursos.com/",
+            "area": "Programación Front End, DevOps e Innovación y Gestión",
+            "studyType": "Bachelor",
+            "startDate": "2022-07-01",
+            "endDate": "2023-06-08",
             "score": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         }
