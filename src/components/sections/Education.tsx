@@ -11,19 +11,26 @@ const Education = () => {
                     ({ institution, url, area, startDate, endDate }) => {
                         const startYear = new Date(startDate).getFullYear();
                         const endYear = new Date(endDate).getFullYear();
-                        const actualYear = new Date().getFullYear()
-                        const years = actualYear < endYear ? `${startYear} - Actual` : `${startYear} - ${endYear}`
+                        const actualYear = new Date().getFullYear();
+                        const years =
+                            actualYear < endYear
+                                ? `${startYear} - Actual`
+                                : `${startYear} - ${endYear}`;
                         return (
                             <li>
                                 <article>
                                     <header className="flex justify-between mb-1 items-start">
-                                        <div className="flex items-center gap-3">
-                                            <h3 className="font-medium text-[#111]">
+                                        <div>
+                                            <h3 className="font-medium  text-[#111]">
                                                 {institution}
+                                                <Link
+                                                target="_blank"
+                                                    href={url}
+                                                    className="font-medium ml-2 inline-block text-[#111] print:hidden"
+                                                >
+                                                    <FaLink />
+                                                </Link>
                                             </h3>
-                                            <Link href={url} className="font-medium text-[#111]">
-                                                <FaLink />
-                                            </Link>
                                         </div>
                                         <time className="text-sm text-[#555]">
                                             {years}
