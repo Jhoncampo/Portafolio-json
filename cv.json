@@ -242,9 +242,9 @@
         {
             "name": "Autenticación",
             "isActive": true,
-            "description": "Autenticación de usuarios utilizando Next.js, NextAuth y PostgreSQL.",
+            "description": "Autenticación de usuarios utilizando Next.js, NextAuth y Prisma.",
             "highlights": ["En desarrollo"],
-            "url": "https://authentication-ten-azure.vercel.app/",
+            "url": "https://login-and-register-with-nextauth.vercel.app/",
             "github": "https://github.com/Jhoncampo/login-and-register-with-nextauth"
         }, 
         {
