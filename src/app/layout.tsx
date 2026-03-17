@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { basics } from "@cv";
+import  cv  from "@cv";
 
 const inter = Inter({ subsets: ["latin"] });
-const { name, url, image } = basics;
+const { name, url, image } = cv.basics;
 
 export const metadata: Metadata = {
     title: `Portafolio de ${name}`,
     description: `Bienvenidos a mi portafolio, mi nombre es ${name}`,
     icons: {
         icon: "https://i.ibb.co/GnZ9Q5v/icono.png",
-    },
-    openGraph: {
-        title: `Portafolio de ${name}`,
-        description: `Bienvenidos a mi portafolio, mi nombre es ${name}`,
-        url: `${url}`,
-        images: `${image}`,
-        type: "website",
-    },
+     }
+    // openGraph: {
+    //     title: `Portafolio de ${name}`,
+    //     description: `Bienvenidos a mi portafolio, mi nombre es ${name}`,
+    //     url: `${url}`,
+    //     images: `${image}`,
+    //     type: "website",
+    // },
 };
 
 export default function RootLayout({
@@ -28,7 +28,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="es">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>{children}
+                
+            </body>
         </html>
     );
 }

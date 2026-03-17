@@ -1,11 +1,11 @@
 import Section from "@/components/Section";
-import { work } from "@cv";
+import cv from "@cv";
 
 const Experience = () => {
     return (
         <Section title="Experiencia">
-            <ul className="flex flex-col gap-8">
-                {work.map(
+            <ul className="flex flex-col gap-4">
+                {cv.work.map(
                     ({
                         name,
                         startDate,
@@ -13,7 +13,7 @@ const Experience = () => {
                         position,
                         summary,
                         highlights,
-                    }) => {
+                    }, index) => {
                         const startYear = new Date(startDate).getFullYear();
                         const endYear =
                             endDate != null
@@ -21,7 +21,7 @@ const Experience = () => {
                                 : "Actual";
                         const years = `${startYear} - ${endYear}`;
                         return (
-                            <li className="">
+                            <li key={index} className="">
                                 <article className="">
                                     <header className="flex justify-between mb-1 items-start">
                                         <div>

@@ -1,8 +1,8 @@
 import Section from "@/components/Section";
-import { basics } from "@cv";
+import cv from "@cv";
 
 const About = () => {
-    const { summary } = basics;
+    const { summary } = cv.basics;
     return (
         <Section title="Sobre mí">
             <p className="text-[#666] font-mono text-wrap m-0">{summary}</p>

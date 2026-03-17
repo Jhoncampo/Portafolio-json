@@ -1,6 +1,5 @@
-import { basics } from "@cv";
+import cv from "@cv";
 import Section from "../Section";
-import WorldMap from "@/icons/WorldMap";
 import { CiMail, CiGlobe } from "react-icons/ci";
 import { HiOutlinePhone } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa6";
@@ -8,7 +7,7 @@ import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
-    const { name, label, image, location, profiles, phone, email } = basics;
+    const { name, label, image, location, profiles, phone, email } = cv.basics;
     const { city, region } = location;
 
     const SOCIALICONS: any = {

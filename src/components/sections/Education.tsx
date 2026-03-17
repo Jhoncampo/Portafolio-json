@@ -1,14 +1,14 @@
 import Section from "@/components/Section";
-import { education } from "@cv";
+import cv from "@cv";
 import Link from "next/link";
 import { FaLink } from "react-icons/fa6";
 
 const Education = () => {
     return (
         <Section title="Educación">
-            <ul className="flex flex-col gap-8 print:mb-36">
-                {education.map(
-                    ({ institution, url, area, startDate, endDate }) => {
+            <ul className="flex flex-col gap-4 print:mb-8">
+                {cv.education.map(
+                    ({ institution, url, area, startDate, endDate }, index) => {
                         const startYear = new Date(startDate).getFullYear();
                         const endYear = new Date(endDate).getFullYear();
                         const actualYear = new Date().getFullYear();
@@ -17,7 +17,7 @@ const Education = () => {
                                 ? `${startYear} - Actual`
                                 : `${startYear} - ${endYear}`;
                         return (
-                            <li>
+                            <li key={index}>
                                 <article>
                                     <header className="flex justify-between mb-1 items-start">
                                         <div>

@@ -1,12 +1,12 @@
 import Section from "@/components/Section";
-import { projects } from "@cv";
+import cv from "@cv";
 import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
     return (
         <Section title="Proyectos">
             <ul className="grid grid-cols-custom gap-4">
-                {projects.map(
+                {cv.projects.map(
                     ({
                         url,
                         description,
@@ -14,9 +14,9 @@ const Projects = () => {
                         name,
                         isActive,
                         github,
-                    }) => {
+                    }, index) => {
                         return (
-                            <li className=" ">
+                            <li key={index} className=" ">
                                 <article className="rounded-lg border border-[#f2f2f2] flex flex-col p-4 h-full gap-4">
                                     <header className="flex flex-1 flex-col">
                                         <h3 className="font-semibold flex items-center gap-2">
@@ -48,9 +48,9 @@ const Projects = () => {
                                         </p>
                                     </header>
                                     <footer className="flex flex-wrap gap-1 text-xs">
-                                        {highlights.map((highlight) => {
+                                        {highlights.map((highlight, index) => {
                                             return (
-                                                <span className="rounded-md bg-[#eee] text-[#444] text-[11px] font-medium py-1 px-2">
+                                                <span key={index} className="rounded-md bg-[#eee] text-[#444] text-[11px] font-medium py-1 px-2">
                                                     {highlight}
                                                 </span>
                                             );
