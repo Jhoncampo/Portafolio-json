@@ -2,7 +2,7 @@
 import { actions } from "@/const/actions";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { GoHome } from "react-icons/go";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin  } from "react-icons/fa";
 import {
     KBarAnimator,
     KBarPortal,
@@ -13,6 +13,7 @@ import {
     useMatches,
 } from "kbar";
 import { useRouter } from "next/navigation";
+import { MdPrint } from "react-icons/md";
 
 const KeyboardManager = () => {
     const router = useRouter();
@@ -57,6 +58,7 @@ export default KeyboardManager;
 
 const Results = () => {
     const { results } = useMatches();
+    console.log("Result: ", results)
 
     return (
         <KBarResults
@@ -71,9 +73,11 @@ const Results = () => {
                             background: active ? "#eee" : "transparent",
                         }}
                     >
+                        {item?.id === "print" && <MdPrint/>}
                         {item?.id === "home" && <GoHome />}
                         {item?.id === "email" && <MdOutlineMailOutline />}
                         {item?.id === "github" && <FaGithub />}
+                         {item?.id === "linkedin" && <FaLinkedin />}
                         {item?.id === "instagram" && <FaInstagram />}
                         {item.name}
                     </div>
